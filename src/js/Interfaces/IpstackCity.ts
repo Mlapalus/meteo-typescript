@@ -1,0 +1,4 @@
+interface IpstackCity {
+
+  city: string
+}

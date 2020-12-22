@@ -1,0 +1,3 @@
+## GitHub contributors:
+
+- Michel Lapalus

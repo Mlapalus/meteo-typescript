@@ -1,0 +1,276 @@
+.Clear {
+  background-image: url("https://i.ibb.co/1XmBxWS/clear.jpg");
+}
+
+.Clouds {
+  background-image: url("https://i.ibb.co/xqhspqH/cloud.jpg");
+}
+
+.Rain {
+  background-image: url("https://i.ibb.co/4gKtJRv/rain.jpg");
+}
+
+.Snow {
+  background-image: url("https://i.ibb.co/rt5WbhG/neige.jpg");
+}
+
+.Drizzle {
+  background-image: url("https://i.ibb.co/JRkDGgh/OLYMPUS-DIGITAL-CAMERA.jpg");
+}
+
+.Fog {
+  background-image: url("https://i.ibb.co/FskchG9/mist.jpg");
+}
+
+.Mist {
+  background-image: url("https://i.ibb.co/FskchG9/mist.jpg");
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 5);
+  font-size: 16px;
+  line-height: 5vh;
+
+  height: 100vh;
+  width: 90vw;
+  overflow: hidden;
+  background-position: center;
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+
+header p {
+  margin: 5px 0px 0px 5px;
+}
+
+footer {
+  margin-top: 15px;
+  font-size: .7rem;
+}
+
+main {
+  width: 80%;
+  margin-bottom: 5px;
+}
+
+#town {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 1.5em;
+  background-color: rgba(0, 0, 0, 0);
+  color: #fff;
+  border: none;
+  text-align: center;
+  width: 100%;
+}
+
+h1 {
+  position: relative;
+}
+
+#town:focus {
+  outline: firebrick;
+}
+
+.tooltip {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 20%;
+  color: #fff;
+  background-color: #222;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 10px;
+  transition: opacity .3s, top .5s;
+}
+
+h1:hover .tooltip {
+  top: -45px;
+  opacity: 1;
+}
+
+i.wi {
+  line-height: 3rem;
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+label {
+  font-size: .8rem;
+}
+
+.feelsLike {
+  font-size: .7rem;
+  margin-top: 0;
+}
+
+.country,
+.city,
+.units {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  overflow: hidden;
+  border: 0 solid rgba(0, 0, 0, 0);
+}
+
+.country select,
+.city select,
+.units select {
+  padding: 5px 8px;
+  border: none;
+  width: 250px;
+  box-shadow: none;
+  background-color: #fff;
+  background-image: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  color: #000000;
+  font-size: 1rem;
+}
+
+.country select:focus,
+.city select:focus,
+.units select:focus {
+  outline: none;
+}
+
+@media screen and (min-width: 470px) {
+  body {
+    line-height: 2vh;
+  }
+
+  main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 80%;
+    width: 90%;
+    font-size: 1rem;
+  }
+
+  header {
+    margin-top: 0;
+    height: 10%;
+  }
+
+  h1 {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 3em;
+  }
+
+  i {
+    font-size: 4em;
+  }
+
+  h1:hover .tooltip {
+    top: -35px;
+    opacity: 1;
+    left: 40%;
+  }
+
+  #town {
+    font-size: 1em;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  .feelsLike {
+    font-size: 1em;
+  }
+  .conditions {
+    font-size: 10em;
+  }
+
+  .country select,
+  .city select,
+  .units select {
+    font-size: 1rem;
+    margin-top: 5px;
+  }
+}
+
+@media screen and (min-width: 650px) {
+  body {
+    line-height: 2vh;
+  }
+
+  h1 {
+    font-size: 5rem;
+    width: 90%;
+  }
+  main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 80%;
+    width: 90%;
+    font-size: 1rem;
+  }
+
+  #selectors {
+    width: 90%;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 1rem;
+  }
+
+  #selectors section {
+    width: 30%;
+  }
+
+  header {
+    margin-top: 0;
+    height: 10%;
+  }
+
+  #town {
+    font-size: 1em;
+  }
+
+  h2 {
+    font-size: 2.1rem;
+  }
+
+  .country select,
+  .city select,
+  .units select {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    padding-left: 30px;
+  }
+}

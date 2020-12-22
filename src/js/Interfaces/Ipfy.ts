@@ -1,0 +1,3 @@
+interface Ipfy {
+  ip: string;
+}
