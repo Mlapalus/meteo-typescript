@@ -9,6 +9,7 @@ npm install
 ```
 
 Create a .env file withe a clone of the .env.example file
+
 Get a KEY on the site de [openweathermap.or](https://openweathermap.org)
 
 ## Testing
