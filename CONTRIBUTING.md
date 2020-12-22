@@ -33,6 +33,6 @@ If you don't feel comfortable forking the project or using Git, you can also eit
 Thank you for your help in making Meteo even better!
 
 [1]: https://help.github.com/articles/using-pull-requests
-[2]: https://github.com/Mlapalus/Meteo/issues/new/choose
+[2]: https://github.com/Mlapalus/meteo-typescript/issues/new/choose
 [3]: https://github.com/join
-[4]: https://github.com/Mlapalus/Meteo
+[4]: https://github.com/Mlapalus/meteo-typescript

@@ -1,7 +1,3 @@
-install: composer assets
+start: 
+	npm run start
 
-composer:
-	composer install
-
-assets:
-	./tools/assets/build.sh
